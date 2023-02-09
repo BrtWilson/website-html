@@ -30,6 +30,29 @@
         </iframe>
       </section>
       <section>
+        <h2>Learning</h2>
+          <h3>Debugging Tips in HTML and other</h3>
+          <p>
+            <li> If something is missing, check for missing bracketing. </li>
+            <li> If any functionality is not as expected, double check lettering</li>
+          </p>
+          <h3>Useful Commands</h3>
+          <p>
+            <div></div>
+            ssh -i [key pair (pem) file] ubuntu@[ip address]
+            <li> connecting in to your website server </li>
+            <li> Note that the Caddy file is used for securing connection to different services </li>
+            sudo service caddy restart
+            <li> Use after updating the Caddyfile to apply changes to the web server </li>
+            `chmod  600 [key pair file]`
+            <li> used to restrict accessibility of a file to only the current user </li>
+            ./deployWebsite.sh  -k &ltyourpemkey&gt -h &ltyourdomain&gt
+            <li> updates home production environment of your web server </li>
+            ./deployFiles.sh -k &ltyourpemkey&gt -h &ltyourdomain&gt -s simon
+            <li> updates current file directory in Simon production environment </li>          
+          </p>
+      </section>
+      <section>
         <h2>Start up project</h2>
         <p>
           <a href=https://su.pokerun.click>Pokemon Run</a>
